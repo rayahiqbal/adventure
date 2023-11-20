@@ -42,11 +42,11 @@ function selectOption(option) {
 const textNodes = [
   {
     id: 1,
-    text: 'You wake up in a strange place and you see a jar of blue goo near you.',
+    text: 'You wake up in a strange place and you see a jar of green goo near you.',
     options: [
       {
         text: 'Take the goo',
-        setState: { blueGoo: true },
+        setState: { greenGoo: true },
         nextText: 2
       },
       {
@@ -61,14 +61,14 @@ const textNodes = [
     options: [
       {
         text: 'Trade the goo for a sword',
-        requiredState: (currentState) => currentState.blueGoo,
-        setState: { blueGoo: false, sword: true },
+        requiredState: (currentState) => currentState.greenGoo,
+        setState: { greenGoo: false, sword: true },
         nextText: 3
       },
       {
         text: 'Trade the goo for a shield',
-        requiredState: (currentState) => currentState.blueGoo,
-        setState: { blueGoo: false, shield: true },
+        requiredState: (currentState) => currentState.greenGoo,
+        setState: { greenGoo: false, shield: true },
         nextText: 3
       },
       {
@@ -127,7 +127,7 @@ const textNodes = [
   },
   {
     id: 7,
-    text: 'While exploring the castle you come across a horrible monster in your path.',
+    text: 'While exploring the castle you come across a terrible monster in your path.',
     options: [
       {
         text: 'Try to run',
@@ -144,7 +144,7 @@ const textNodes = [
         nextText: 10
       },
       {
-        text: 'Throw the blue goo at it',
+        text: 'Throw the goo at it',
         requiredState: (currentState) => currentState.blueGoo,
         nextText: 11
       }
@@ -152,7 +152,7 @@ const textNodes = [
   },
   {
     id: 8,
-    text: 'Your attempts to run are in vain and the monster easily catches.',
+    text: 'Your attempts to run are in vain and the monster easily catches you.',
     options: [
       {
         text: 'Restart',
@@ -182,7 +182,7 @@ const textNodes = [
   },
   {
     id: 11,
-    text: 'You threw your jar of goo at the monster and it exploded. After the dust settled you saw the monster was destroyed. Seeing your victory you decide to claim this castle as your and live out the rest of your days there.',
+    text: 'You threw your jar of goo at the monster and it exploded. After the dust settled you saw the monster was destroyed. Seeing your victory you decide to claim this castle as your own and live out the rest of your days there.',
     options: [
       {
         text: 'Congratulations. Play Again.',
