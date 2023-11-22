@@ -54,7 +54,7 @@ function createOptionButton(option) {
 const textNodes = [
   {
     id: 1,
-    text: 'You wake up in a strange place and you see a jar of purple crystal near you.',
+    text: 'You wake up in a strange place and you see glowing purple crystal near you.',
     options: [
       {
         text: 'Take the crystal',
