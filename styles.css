@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap');
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -9,9 +11,9 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: linear-gradient(45deg, #1a1a29, #0e0e1a); /* Gradient background */
-  font-family: 'Gotham Rounded', Arial, sans-serif;
-  color: #fff;
+  background: linear-gradient(45deg, #1a1a29, #0e0e1a);
+  font-family: 'Uncial Antiqua', sans-serif;
+  color: #333; 
 }
 
 .container {
@@ -34,9 +36,9 @@ body {
   background-color: #8e6fff;
   border: 2px solid #8e6fff;
   border-radius: 10px;
-  padding: 15px 30px;
+  padding: 20px 40px;
   color: #fff;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
@@ -49,7 +51,7 @@ body {
   box-shadow: 0 0 20px rgba(139, 92, 246, 0.5);
 }
 
-/* Additional styles for improved legibility */
-.container h1, .container p, .btn {
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Subtle text shadow */
+
+.container h1, .container p {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
