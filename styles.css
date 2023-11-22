@@ -12,7 +12,7 @@ body {
   align-items: center;
   min-height: 100vh;
   font-family: 'Lobster Two', cursive;
-  color: #555; /* Mid-tone grey text color */
+  color: #777; /* Lighter grey text color */
   background: linear-gradient(135deg, #001F3F, #070A16); /* Midnight blue gradient background */
 }
 
@@ -37,8 +37,8 @@ body {
   border: 2px solid #8e6fff;
   border-radius: 10px;
   padding: 15px 30px;
-  color: #555; /* Mid-tone grey text color */
-  font-size: 16px;
+  color: #777; /* Lighter grey text color */
+  font-size: 18px; /* Slightly larger text size */
   font-weight: bold;
   text-align: center;
   text-decoration: none;
