@@ -1,6 +1,6 @@
 *, *::before, *::after {
   box-sizing: border-box;
-  font-family: Gotham Rounded;
+  font-family: 'Gotham Rounded', Arial, sans-serif;
 }
 
 body {
@@ -11,34 +11,37 @@ body {
   align-items: center;
   width: 100vw;
   height: 100vh;
-  background-color: #333;
+  background-color: #0e0e1a; /* Dark, magical background color */
 }
 
 .container {
   width: 800px;
   max-width: 80%;
-  background-color: white;
-  padding: 10px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px 2px;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.2); /* Soft glow effect */
 }
 
 .btn-grid {
   display: grid;
   grid-template-columns: repeat(2, auto);
-  gap: 10px;
+  gap: 15px;
   margin-top: 20px;
 }
 
 .btn {
-  background-color: hsl(200, 100%, 50%);
-  border: 1px solid hsl(200, 100%, 30%);
-  border-radius: 5px;
-  padding: 5px 10px;
+  background-color: #6f4aff; /* Soft purple color for a magical touch */
+  border: 1px solid #6f4aff;
+  border-radius: 8px;
+  padding: 10px 20px;
   color: white;
   outline: none;
+  transition: background-color 0.3s, border-color 0.3s;
 }
 
 .btn:hover {
-  border-color: black;
+  background-color: #8e6fff; /* Lighter purple on hover */
+  border-color: #8e6fff;
+  box-shadow: 0 0 10px 2px #8e6fff; /* Slight glow on hover */
 }
