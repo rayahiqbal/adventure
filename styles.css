@@ -12,7 +12,7 @@ body {
   align-items: center;
   min-height: 100vh;
   font-family: 'Lobster Two', cursive;
-  color: #fff;
+  color: #555; /* Mid-tone grey text color */
 }
 
 .container {
@@ -36,7 +36,7 @@ body {
   border: 2px solid #8e6fff;
   border-radius: 10px;
   padding: 15px 30px;
-  color: #fff;
+  color: #555; /* Mid-tone grey text color */
   font-size: 16px;
   font-weight: bold;
   text-align: center;
