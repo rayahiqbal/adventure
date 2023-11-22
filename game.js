@@ -194,7 +194,7 @@ const textNodes = [
   },
   {
     id: 11,
-    text: 'You threw your jar of crystal at the monster and it exploded. After the dust settled you saw the monster was destroyed. Seeing your victory you decide to claim this castle as your own and live out the rest of your days there.',
+    text: 'You threw your crystal at the monster and it exploded in a burst or glitter. After it settled you saw the monster was destroyed. Seeing your victory you decide to claim this castle as your own and live out the rest of your days there.',
     options: [
       {
         text: 'Congratulations. Play Again.',
