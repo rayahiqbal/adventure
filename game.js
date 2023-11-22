@@ -109,7 +109,7 @@ const textNodes = [
   },
   {
     id: 4,
-    text: 'You are so tired that you fall asleep while exploring the castle and are killed by some terrible monster in your sleep.',
+    text: 'You are so tired that you fall asleep while exploring the castle and are killed by a terrible monster.',
     options: [
       {
         text: 'Restart',
