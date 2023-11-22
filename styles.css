@@ -12,7 +12,6 @@ body {
   align-items: center;
   min-height: 100vh;
   font-family: 'Lobster Two', cursive;
-  color: #777; 
   background: linear-gradient(135deg, #001F3F, #070A16); 
 }
 
@@ -23,6 +22,10 @@ body {
   padding: 40px;
   border-radius: 15px;
   box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+}
+
+#text {
+  color: #001F3F; 
 }
 
 .btn-grid {
@@ -37,8 +40,8 @@ body {
   border: 2px solid #8e6fff;
   border-radius: 10px;
   padding: 15px 30px;
-  color: #777; 
-  font-size: 18px; 
+  color: #fff; 
+  font-size: 18px;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
